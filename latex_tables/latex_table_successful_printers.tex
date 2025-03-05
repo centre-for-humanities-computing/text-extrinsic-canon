@@ -1,0 +1,58 @@
+
+\begin{table*}
+    \centering
+    \small
+    \begin{tabular}{l|cc|cc|cc}
+    \toprule
+    & \multicolumn{2}{c|}{\textbf{Precision}} & \multicolumn{2}{c|}{\textbf{Recall}} & \multicolumn{2}{c}{\textbf{F1-score}} \\
+    \textbf{Feature set} & \textit{Canon} & \textit{Other} & \textit{Canon}  & \textit{Other} & \textit{Canon}  & \textit{Other} \\
+    \midrule
+    embeddings & 0.719 & 0.738 & 0.724 & 0.709 & 0.713 & 0.713 \\
+    avg_sentence_length & 0.512 & 0.667 & 0.936 & 0.142 & 0.656 & 0.200 \\
+    price & 0.536 & 0.544 & 0.516 & 0.564 & 0.518 & 0.546 \\
+    publisher & 0.540 & 0.622 & 0.729 & 0.376 & 0.599 & 0.428 \\
+    published_gender & 0.542 & 0.595 & 0.864 & 0.258 & 0.663 & 0.347 \\
+    real_gender & 0.508 & 0.511 & 0.820 & 0.233 & 0.620 & 0.295 \\
+    nationality & 0.627 & 0.537 & 0.302 & 0.807 & 0.393 & 0.642 \\
+    embeddings_price & 0.698 & 0.715 & 0.709 & 0.685 & 0.695 & 0.691 \\
+    embeddings_publisher & 0.692 & 0.706 & 0.711 & 0.671 & 0.694 & 0.681 \\
+    embeddings_published_gender & 0.709 & 0.723 & 0.718 & 0.696 & 0.707 & 0.702 \\
+    embeddings_real_gender & 0.726 & 0.730 & 0.724 & 0.713 & 0.716 & 0.714 \\
+    embeddings_nationality & 0.722 & 0.726 & 0.720 & 0.711 & 0.713 & 0.712 \\
+    price_publisher & 0.571 & 0.605 & 0.638 & 0.516 & 0.596 & 0.543 \\
+    price_published_gender & 0.518 & 0.540 & 0.538 & 0.520 & 0.522 & 0.523 \\
+    price_real_gender & 0.544 & 0.558 & 0.556 & 0.542 & 0.543 & 0.541 \\
+    price_nationality & 0.559 & 0.547 & 0.540 & 0.564 & 0.538 & 0.546 \\
+    publisher_published_gender & 0.572 & 0.646 & 0.773 & 0.416 & 0.653 & 0.495 \\
+    publisher_real_gender & 0.548 & 0.601 & 0.771 & 0.355 & 0.635 & 0.428 \\
+    publisher_nationality & 0.573 & 0.571 & 0.576 & 0.556 & 0.562 & 0.549 \\
+    embeddings_price_publisher & 0.701 & 0.714 & 0.715 & 0.684 & 0.700 & 0.691 \\
+    embeddings_price_published_gender & 0.703 & 0.715 & 0.713 & 0.685 & 0.699 & 0.691 \\
+    embeddings_price_real_gender & 0.705 & 0.728 & 0.733 & 0.680 & 0.710 & 0.694 \\
+    embeddings_price_nationality & 0.703 & 0.730 & 0.735 & 0.676 & 0.710 & 0.692 \\
+    embeddings_publisher_published_gender & 0.698 & 0.706 & 0.702 & 0.680 & 0.691 & 0.684 \\
+    embeddings_publisher_real_gender & 0.697 & 0.706 & 0.709 & 0.675 & 0.695 & 0.682 \\
+    embeddings_publisher_nationality & 0.705 & 0.715 & 0.716 & 0.685 & 0.703 & 0.692 \\
+    embeddings_published_gender_nationality & 0.709 & 0.718 & 0.713 & 0.698 & 0.704 & 0.701 \\
+    embeddings_real_gender_nationality & 0.709 & 0.718 & 0.713 & 0.698 & 0.704 & 0.701 \\
+    price_publisher_published_gender & 0.568 & 0.587 & 0.609 & 0.531 & 0.579 & 0.543 \\
+    price_publisher_real_gender & 0.569 & 0.591 & 0.611 & 0.529 & 0.581 & 0.543 \\
+    price_publisher_nationality & 0.573 & 0.588 & 0.618 & 0.527 & 0.585 & 0.542 \\
+    embeddings_price_publisher_published_gender & 0.705 & 0.736 & 0.744 & 0.676 & 0.717 & 0.696 \\
+    embeddings_price_publisher_real_gender & 0.705 & 0.729 & 0.740 & 0.675 & 0.714 & 0.692 \\
+    embeddings_price_publisher_nationality & 0.698 & 0.737 & 0.747 & 0.667 & 0.714 & 0.692 \\
+    embeddings_price_published_gender_nationality & 0.704 & 0.717 & 0.725 & 0.675 & 0.706 & 0.687 \\
+    embeddings_price_real_gender_nationality & 0.702 & 0.719 & 0.731 & 0.671 & 0.708 & 0.686 \\
+    embeddings_publisher_published_gender_nationality & 0.703 & 0.727 & 0.727 & 0.685 & 0.707 & 0.698 \\
+    embeddings_publisher_real_gender_nationality & 0.704 & 0.722 & 0.722 & 0.687 & 0.705 & 0.697 \\
+    price_publisher_published_gender_nationality & 0.597 & 0.608 & 0.624 & 0.565 & 0.598 & 0.573 \\
+    price_publisher_real_gender_nationality & 0.586 & 0.604 & 0.625 & 0.549 & 0.596 & 0.562 \\
+    embeddings_price_publisher_published_gender_nationality & 0.713 & 0.733 & 0.733 & 0.693 & 0.714 & 0.703 \\
+    embeddings_price_publisher_real_gender_nationality & 0.700 & 0.715 & 0.725 & 0.673 & 0.705 & 0.686 \\
+    embeddings_price_publisher_published_gender_real_gender_nationality & 0.709 & 0.713 & 0.711 & 0.691 & 0.701 & 0.694 \\
+
+    \bottomrule
+    \end{tabular}
+    \caption{Performance metrics for different feature sets.}
+    \label{tab:performance_metrics}
+\end{table*}
