@@ -5,7 +5,7 @@
 
 ###
 
-This repository contains code for embeddings, plots and results for our paper: 
+This repository contains code for embeddings, plots and results of our paper: 
 
 "Why Novels (Don't) Break Through: Dynamics of Canonicity in the Danish Modern Breakthrough (1870-1900)" which will be presented at LaTeCH-CLfL at NAACL 2025.
 
@@ -19,7 +19,7 @@ Some useful directions:
 
 ## Data & paper 📝
 
-The dataset used is available at [huggingface](https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1)
+The dataset used is available at [huggingface](https://huggingface.co/datasets/chcaa/memo-canonical-novels), which is an updated version of the original [dataset](https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1).
 
 Please cite our [paper](link-coming-soon) if you use the code or the embeddings:
 
