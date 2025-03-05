@@ -29,3 +29,26 @@ Please cite our [paper](link-coming-soon) if you use the code or the embeddings:
 
 
 ## Project Organization 🏗️
+
+```
+├── LICENSE                    <- Open-source license if one is chosen.
+│
+├── README.md                  <- The top-level README for developers using this project.
+│
+├── ML_experiment_LaTeCH.py    <- Python script to run all machine learning experiments.
+│
+├── ML_successful_printers.py  <- Python script to run machine learning experiments with a subset of successful printers.
+│
+├── ceiling_run.py             <- Python script to run machine learning experiments with a ceiling of 15 to collect false positives.
+│
+├── figs/                      <- Generated graphics and figures used in the paper.
+│
+├── latex_tables/              <- Generated LaTeX tables used in the paper.
+│
+├── notebooks/                 <- Jupyter notebooks.
+│   │
+│   ├── descriptive_LaTeCH.ipynb        <- Notebook to get descriptive statistics of the dataset.
+│   └── explore_FP_ceiling.ipynb        <- Notebook for the false positives analysis.
+│
+└──  results/                   <- Results from machine learning experiments.
+```
