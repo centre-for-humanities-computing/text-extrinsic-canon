@@ -1,4 +1,4 @@
-# text-extrinsic-canon
+# Why Novels (Don't) Break Through
 
 <a href="https://chc.au.dk"><img src="https://github.com/centre-for-humanities-computing/intra/raw/main/images/onboarding/CHC_logo-turquoise-full-name.png" width="25%" align="right"/></a>
 
