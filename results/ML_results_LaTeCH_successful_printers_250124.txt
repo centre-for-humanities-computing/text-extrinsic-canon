@@ -1,0 +1,602 @@
+Feature Set: embeddings
+  Class CANON:
+    Mean Precision: 0.719
+    Mean Recall: 0.724
+    Mean F1-Score: 0.713
+    ..
+    STD F1-Score: 0.097
+  Class O:
+    Mean Precision: 0.738
+    Mean Recall: 0.709
+    Mean F1-Score: 0.713
+    ..
+    STD F1-Score: 0.083
+
+Feature Set: avg_sentence_length
+  Class CANON:
+    Mean Precision: 0.512
+    Mean Recall: 0.936
+    Mean F1-Score: 0.656
+    ..
+    STD F1-Score: 0.124
+  Class O:
+    Mean Precision: 0.667
+    Mean Recall: 0.142
+    Mean F1-Score: 0.200
+    ..
+    STD F1-Score: 0.166
+
+Feature Set: price
+  Class CANON:
+    Mean Precision: 0.536
+    Mean Recall: 0.516
+    Mean F1-Score: 0.518
+    ..
+    STD F1-Score: 0.142
+  Class O:
+    Mean Precision: 0.544
+    Mean Recall: 0.564
+    Mean F1-Score: 0.546
+    ..
+    STD F1-Score: 0.107
+
+Feature Set: publisher
+  Class CANON:
+    Mean Precision: 0.540
+    Mean Recall: 0.729
+    Mean F1-Score: 0.599
+    ..
+    STD F1-Score: 0.153
+  Class O:
+    Mean Precision: 0.622
+    Mean Recall: 0.376
+    Mean F1-Score: 0.428
+    ..
+    STD F1-Score: 0.175
+
+Feature Set: published_gender
+  Class CANON:
+    Mean Precision: 0.542
+    Mean Recall: 0.864
+    Mean F1-Score: 0.663
+    ..
+    STD F1-Score: 0.073
+  Class O:
+    Mean Precision: 0.595
+    Mean Recall: 0.258
+    Mean F1-Score: 0.347
+    ..
+    STD F1-Score: 0.208
+
+Feature Set: real_gender
+  Class CANON:
+    Mean Precision: 0.508
+    Mean Recall: 0.820
+    Mean F1-Score: 0.620
+    ..
+    STD F1-Score: 0.137
+  Class O:
+    Mean Precision: 0.511
+    Mean Recall: 0.233
+    Mean F1-Score: 0.295
+    ..
+    STD F1-Score: 0.205
+
+Feature Set: nationality
+  Class CANON:
+    Mean Precision: 0.627
+    Mean Recall: 0.302
+    Mean F1-Score: 0.393
+    ..
+    STD F1-Score: 0.151
+  Class O:
+    Mean Precision: 0.537
+    Mean Recall: 0.807
+    Mean F1-Score: 0.642
+    ..
+    STD F1-Score: 0.084
+
+Feature Set: embeddings_price
+  Class CANON:
+    Mean Precision: 0.698
+    Mean Recall: 0.709
+    Mean F1-Score: 0.695
+    ..
+    STD F1-Score: 0.101
+  Class O:
+    Mean Precision: 0.715
+    Mean Recall: 0.685
+    Mean F1-Score: 0.691
+    ..
+    STD F1-Score: 0.095
+
+Feature Set: embeddings_publisher
+  Class CANON:
+    Mean Precision: 0.692
+    Mean Recall: 0.711
+    Mean F1-Score: 0.694
+    ..
+    STD F1-Score: 0.093
+  Class O:
+    Mean Precision: 0.706
+    Mean Recall: 0.671
+    Mean F1-Score: 0.681
+    ..
+    STD F1-Score: 0.103
+
+Feature Set: embeddings_published_gender
+  Class CANON:
+    Mean Precision: 0.709
+    Mean Recall: 0.718
+    Mean F1-Score: 0.707
+    ..
+    STD F1-Score: 0.090
+  Class O:
+    Mean Precision: 0.723
+    Mean Recall: 0.696
+    Mean F1-Score: 0.702
+    ..
+    STD F1-Score: 0.082
+
+Feature Set: embeddings_real_gender
+  Class CANON:
+    Mean Precision: 0.726
+    Mean Recall: 0.724
+    Mean F1-Score: 0.716
+    ..
+    STD F1-Score: 0.096
+  Class O:
+    Mean Precision: 0.730
+    Mean Recall: 0.713
+    Mean F1-Score: 0.714
+    ..
+    STD F1-Score: 0.095
+
+Feature Set: embeddings_nationality
+  Class CANON:
+    Mean Precision: 0.722
+    Mean Recall: 0.720
+    Mean F1-Score: 0.713
+    ..
+    STD F1-Score: 0.097
+  Class O:
+    Mean Precision: 0.726
+    Mean Recall: 0.711
+    Mean F1-Score: 0.712
+    ..
+    STD F1-Score: 0.093
+
+Feature Set: price_publisher
+  Class CANON:
+    Mean Precision: 0.571
+    Mean Recall: 0.638
+    Mean F1-Score: 0.596
+    ..
+    STD F1-Score: 0.108
+  Class O:
+    Mean Precision: 0.605
+    Mean Recall: 0.516
+    Mean F1-Score: 0.543
+    ..
+    STD F1-Score: 0.117
+
+Feature Set: price_published_gender
+  Class CANON:
+    Mean Precision: 0.518
+    Mean Recall: 0.538
+    Mean F1-Score: 0.522
+    ..
+    STD F1-Score: 0.143
+  Class O:
+    Mean Precision: 0.540
+    Mean Recall: 0.520
+    Mean F1-Score: 0.523
+    ..
+    STD F1-Score: 0.101
+
+Feature Set: price_real_gender
+  Class CANON:
+    Mean Precision: 0.544
+    Mean Recall: 0.556
+    Mean F1-Score: 0.543
+    ..
+    STD F1-Score: 0.136
+  Class O:
+    Mean Precision: 0.558
+    Mean Recall: 0.542
+    Mean F1-Score: 0.541
+    ..
+    STD F1-Score: 0.113
+
+Feature Set: price_nationality
+  Class CANON:
+    Mean Precision: 0.559
+    Mean Recall: 0.540
+    Mean F1-Score: 0.538
+    ..
+    STD F1-Score: 0.118
+  Class O:
+    Mean Precision: 0.547
+    Mean Recall: 0.564
+    Mean F1-Score: 0.546
+    ..
+    STD F1-Score: 0.134
+
+Feature Set: publisher_published_gender
+  Class CANON:
+    Mean Precision: 0.572
+    Mean Recall: 0.773
+    Mean F1-Score: 0.653
+    ..
+    STD F1-Score: 0.109
+  Class O:
+    Mean Precision: 0.646
+    Mean Recall: 0.416
+    Mean F1-Score: 0.495
+    ..
+    STD F1-Score: 0.163
+
+Feature Set: publisher_real_gender
+  Class CANON:
+    Mean Precision: 0.548
+    Mean Recall: 0.771
+    Mean F1-Score: 0.635
+    ..
+    STD F1-Score: 0.083
+  Class O:
+    Mean Precision: 0.601
+    Mean Recall: 0.355
+    Mean F1-Score: 0.428
+    ..
+    STD F1-Score: 0.169
+
+Feature Set: publisher_nationality
+  Class CANON:
+    Mean Precision: 0.573
+    Mean Recall: 0.576
+    Mean F1-Score: 0.562
+    ..
+    STD F1-Score: 0.109
+  Class O:
+    Mean Precision: 0.571
+    Mean Recall: 0.556
+    Mean F1-Score: 0.549
+    ..
+    STD F1-Score: 0.123
+
+Feature Set: embeddings_price_publisher
+  Class CANON:
+    Mean Precision: 0.701
+    Mean Recall: 0.715
+    Mean F1-Score: 0.700
+    ..
+    STD F1-Score: 0.104
+  Class O:
+    Mean Precision: 0.714
+    Mean Recall: 0.684
+    Mean F1-Score: 0.691
+    ..
+    STD F1-Score: 0.105
+
+Feature Set: embeddings_price_published_gender
+  Class CANON:
+    Mean Precision: 0.703
+    Mean Recall: 0.713
+    Mean F1-Score: 0.699
+    ..
+    STD F1-Score: 0.110
+  Class O:
+    Mean Precision: 0.715
+    Mean Recall: 0.685
+    Mean F1-Score: 0.691
+    ..
+    STD F1-Score: 0.113
+
+Feature Set: embeddings_price_real_gender
+  Class CANON:
+    Mean Precision: 0.705
+    Mean Recall: 0.733
+    Mean F1-Score: 0.710
+    ..
+    STD F1-Score: 0.101
+  Class O:
+    Mean Precision: 0.728
+    Mean Recall: 0.680
+    Mean F1-Score: 0.694
+    ..
+    STD F1-Score: 0.109
+
+Feature Set: embeddings_price_nationality
+  Class CANON:
+    Mean Precision: 0.703
+    Mean Recall: 0.735
+    Mean F1-Score: 0.710
+    ..
+    STD F1-Score: 0.100
+  Class O:
+    Mean Precision: 0.730
+    Mean Recall: 0.676
+    Mean F1-Score: 0.692
+    ..
+    STD F1-Score: 0.106
+
+Feature Set: embeddings_publisher_published_gender
+  Class CANON:
+    Mean Precision: 0.698
+    Mean Recall: 0.702
+    Mean F1-Score: 0.691
+    ..
+    STD F1-Score: 0.107
+  Class O:
+    Mean Precision: 0.706
+    Mean Recall: 0.680
+    Mean F1-Score: 0.684
+    ..
+    STD F1-Score: 0.112
+
+Feature Set: embeddings_publisher_real_gender
+  Class CANON:
+    Mean Precision: 0.697
+    Mean Recall: 0.709
+    Mean F1-Score: 0.695
+    ..
+    STD F1-Score: 0.102
+  Class O:
+    Mean Precision: 0.706
+    Mean Recall: 0.675
+    Mean F1-Score: 0.682
+    ..
+    STD F1-Score: 0.114
+
+Feature Set: embeddings_publisher_nationality
+  Class CANON:
+    Mean Precision: 0.705
+    Mean Recall: 0.716
+    Mean F1-Score: 0.703
+    ..
+    STD F1-Score: 0.097
+  Class O:
+    Mean Precision: 0.715
+    Mean Recall: 0.685
+    Mean F1-Score: 0.692
+    ..
+    STD F1-Score: 0.107
+
+Feature Set: embeddings_published_gender_nationality
+  Class CANON:
+    Mean Precision: 0.709
+    Mean Recall: 0.713
+    Mean F1-Score: 0.704
+    ..
+    STD F1-Score: 0.105
+  Class O:
+    Mean Precision: 0.718
+    Mean Recall: 0.698
+    Mean F1-Score: 0.701
+    ..
+    STD F1-Score: 0.104
+
+Feature Set: embeddings_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.709
+    Mean Recall: 0.713
+    Mean F1-Score: 0.704
+    ..
+    STD F1-Score: 0.105
+  Class O:
+    Mean Precision: 0.718
+    Mean Recall: 0.698
+    Mean F1-Score: 0.701
+    ..
+    STD F1-Score: 0.104
+
+Feature Set: price_publisher_published_gender
+  Class CANON:
+    Mean Precision: 0.568
+    Mean Recall: 0.609
+    Mean F1-Score: 0.579
+    ..
+    STD F1-Score: 0.122
+  Class O:
+    Mean Precision: 0.587
+    Mean Recall: 0.531
+    Mean F1-Score: 0.543
+    ..
+    STD F1-Score: 0.132
+
+Feature Set: price_publisher_real_gender
+  Class CANON:
+    Mean Precision: 0.569
+    Mean Recall: 0.611
+    Mean F1-Score: 0.581
+    ..
+    STD F1-Score: 0.118
+  Class O:
+    Mean Precision: 0.591
+    Mean Recall: 0.529
+    Mean F1-Score: 0.543
+    ..
+    STD F1-Score: 0.127
+
+Feature Set: price_publisher_nationality
+  Class CANON:
+    Mean Precision: 0.573
+    Mean Recall: 0.618
+    Mean F1-Score: 0.585
+    ..
+    STD F1-Score: 0.107
+  Class O:
+    Mean Precision: 0.588
+    Mean Recall: 0.527
+    Mean F1-Score: 0.542
+    ..
+    STD F1-Score: 0.125
+
+Feature Set: embeddings_price_publisher_published_gender
+  Class CANON:
+    Mean Precision: 0.705
+    Mean Recall: 0.744
+    Mean F1-Score: 0.717
+    ..
+    STD F1-Score: 0.090
+  Class O:
+    Mean Precision: 0.736
+    Mean Recall: 0.676
+    Mean F1-Score: 0.696
+    ..
+    STD F1-Score: 0.099
+
+Feature Set: embeddings_price_publisher_real_gender
+  Class CANON:
+    Mean Precision: 0.705
+    Mean Recall: 0.740
+    Mean F1-Score: 0.714
+    ..
+    STD F1-Score: 0.083
+  Class O:
+    Mean Precision: 0.729
+    Mean Recall: 0.675
+    Mean F1-Score: 0.692
+    ..
+    STD F1-Score: 0.099
+
+Feature Set: embeddings_price_publisher_nationality
+  Class CANON:
+    Mean Precision: 0.698
+    Mean Recall: 0.747
+    Mean F1-Score: 0.714
+    ..
+    STD F1-Score: 0.084
+  Class O:
+    Mean Precision: 0.737
+    Mean Recall: 0.667
+    Mean F1-Score: 0.692
+    ..
+    STD F1-Score: 0.081
+
+Feature Set: embeddings_price_published_gender_nationality
+  Class CANON:
+    Mean Precision: 0.704
+    Mean Recall: 0.725
+    Mean F1-Score: 0.706
+    ..
+    STD F1-Score: 0.074
+  Class O:
+    Mean Precision: 0.717
+    Mean Recall: 0.675
+    Mean F1-Score: 0.687
+    ..
+    STD F1-Score: 0.094
+
+Feature Set: embeddings_price_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.702
+    Mean Recall: 0.731
+    Mean F1-Score: 0.708
+    ..
+    STD F1-Score: 0.073
+  Class O:
+    Mean Precision: 0.719
+    Mean Recall: 0.671
+    Mean F1-Score: 0.686
+    ..
+    STD F1-Score: 0.098
+
+Feature Set: embeddings_publisher_published_gender_nationality
+  Class CANON:
+    Mean Precision: 0.703
+    Mean Recall: 0.727
+    Mean F1-Score: 0.707
+    ..
+    STD F1-Score: 0.098
+  Class O:
+    Mean Precision: 0.727
+    Mean Recall: 0.685
+    Mean F1-Score: 0.698
+    ..
+    STD F1-Score: 0.094
+
+Feature Set: embeddings_publisher_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.704
+    Mean Recall: 0.722
+    Mean F1-Score: 0.705
+    ..
+    STD F1-Score: 0.097
+  Class O:
+    Mean Precision: 0.722
+    Mean Recall: 0.687
+    Mean F1-Score: 0.697
+    ..
+    STD F1-Score: 0.094
+
+Feature Set: price_publisher_published_gender_nationality
+  Class CANON:
+    Mean Precision: 0.597
+    Mean Recall: 0.624
+    Mean F1-Score: 0.598
+    ..
+    STD F1-Score: 0.122
+  Class O:
+    Mean Precision: 0.608
+    Mean Recall: 0.565
+    Mean F1-Score: 0.573
+    ..
+    STD F1-Score: 0.129
+
+Feature Set: price_publisher_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.586
+    Mean Recall: 0.625
+    Mean F1-Score: 0.596
+    ..
+    STD F1-Score: 0.118
+  Class O:
+    Mean Precision: 0.604
+    Mean Recall: 0.549
+    Mean F1-Score: 0.562
+    ..
+    STD F1-Score: 0.121
+
+Feature Set: embeddings_price_publisher_published_gender_nationality
+  Class CANON:
+    Mean Precision: 0.713
+    Mean Recall: 0.733
+    Mean F1-Score: 0.714
+    ..
+    STD F1-Score: 0.113
+  Class O:
+    Mean Precision: 0.733
+    Mean Recall: 0.693
+    Mean F1-Score: 0.703
+    ..
+    STD F1-Score: 0.111
+
+Feature Set: embeddings_price_publisher_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.700
+    Mean Recall: 0.725
+    Mean F1-Score: 0.705
+    ..
+    STD F1-Score: 0.104
+  Class O:
+    Mean Precision: 0.715
+    Mean Recall: 0.673
+    Mean F1-Score: 0.686
+    ..
+    STD F1-Score: 0.116
+
+Feature Set: embeddings_price_publisher_published_gender_real_gender_nationality
+  Class CANON:
+    Mean Precision: 0.709
+    Mean Recall: 0.711
+    Mean F1-Score: 0.701
+    ..
+    STD F1-Score: 0.103
+  Class O:
+    Mean Precision: 0.713
+    Mean Recall: 0.691
+    Mean F1-Score: 0.694
+    ..
+    STD F1-Score: 0.108
+
