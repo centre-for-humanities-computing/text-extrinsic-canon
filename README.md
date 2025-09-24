@@ -7,7 +7,7 @@
 
 This repository contains code for embeddings, plots and results of our paper: 
 
-"Why Novels (Don't) Break Through: Dynamics of Canonicity in the Danish Modern Breakthrough (1870-1900)" which will be presented at LaTeCH-CLfL at NAACL 2025.
+"Why Novels (Don't) Break Through: Dynamics of Canonicity in the Danish Modern Breakthrough (1870-1900)" which was presented at LaTeCH-CLfL at NAACL 2025.
 
 ## Useful directions 📌
 
@@ -24,8 +24,32 @@ Some useful directions:
 
 The dataset used is available at [huggingface](https://huggingface.co/datasets/chcaa/memo-canonical-novels), which is an updated version of the original [dataset](https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1).
 
-Please cite our [paper](link-coming-soon) if you use the code or the embeddings:
+Please cite our [paper](https://aclanthology.org/2025.latechclfl-1.25/) if you use the code or the embeddings:
 
+```
+@inproceedings{lassche-etal-2025-novels,
+    title = "Why Novels (Don{'}t) Break Through: Dynamics of Canonicity in the {D}anish Modern Breakthrough (1870-1900)",
+    author = "Lassche, Alie  and
+      Feldkamp, Pascale  and
+      Bizzoni, Yuri  and
+      Baunvig, Katrine  and
+      Nielbo, Kristoffer",
+    editor = "Kazantseva, Anna  and
+      Szpakowicz, Stan  and
+      Degaetano-Ortlieb, Stefania  and
+      Bizzoni, Yuri  and
+      Pagel, Janis",
+    booktitle = "Proceedings of the 9th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2025)",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.latechclfl-1.25/",
+    doi = "10.18653/v1/2025.latechclfl-1.25",
+    pages = "278--290",
+    ISBN = "979-8-89176-241-1"
+}
+```
 
 
 ## Project Organization 🏗️
